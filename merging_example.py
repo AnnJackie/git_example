@@ -1,6 +1,6 @@
 # Line 1: Unchanged shared baseline
 def calculate_metrics(y_true, y_pred):
-    pass
+    print("Calculating accuracy and precision...")
 
 # Line 5: Unchanged shared baseline
 def train_model(data):
