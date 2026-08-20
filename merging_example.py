@@ -8,4 +8,4 @@ def train_model(data):
 
 # Line 9: Unchanged shared baseline
 def save_checkpoint(model):
-    print("Checkpoint saved")
+    print("Exporting model weights to PyTorch checkpoint...")
