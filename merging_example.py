@@ -1,6 +1,7 @@
 # Line 1: Unchanged shared baseline
 def calculate_metrics(y_true, y_pred):
     pass
+    return 1
 
 # Line 5: Unchanged shared baseline
 def train_model(data):
