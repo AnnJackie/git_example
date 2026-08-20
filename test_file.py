@@ -1,7 +1,7 @@
-def fibonacci(count: int, num1: int = 0, num2: int = 1):
+def fibonacci(count: int, first_num: int = 0, second_num: int = 1):
     for _ in range(count):
-        yield num1
-        num1, num2 = num2, num1 + num2
+        yield first_num
+        first_num, second_num = second_num, first_num + second_num
 
 # Usage:
 sequence = list(fibonacci(10))
