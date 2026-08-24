@@ -61,3 +61,8 @@ if __name__ == "__main__":
     print("Sorted list:", sort_list(sample_list))  # Output: [1, 3, 7, 19, 42, 88]
 
     print("GCD of 48 and 18:", find_gcd(48, 18))  # Output: 6
+
+    # Usage:
+    sequence = list(fibonacci(10))
+    print(sequence)
+
